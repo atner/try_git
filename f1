@@ -1,0 +1,8 @@
+#!/bin/bash
+exec 1>outfile
+echo "This is test. Перенправвление всего "
+echo "из shell в другой файл"
+echo 'без перевода строк'
+echo 'СТРОКИ бывают разными'
+echo 'и вот еще одна Строка'
+
